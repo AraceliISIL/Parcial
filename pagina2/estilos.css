@@ -1,0 +1,155 @@
+
+
+body{
+    background-image: url(imagenes/tumblr_0130c4c372d84dc3cf3e53cf14aba94c_554b77bd_1280.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+    text-align: justify;
+    padding: 90px;
+    background-color: transparent;
+}
+@font-face{
+    font-family: akua;
+    src: url(fuentes/MetalMania-Regular.ttf) ;
+}
+@font-face{
+    src: url(fuentes/RobotoMono-Italic-VariableFont_wght.ttf);
+    font-family: mono;
+}
+#titulo{
+    display: flex;
+    font-weight: 900;
+    font-style: italic;
+    text-decoration: none;
+    color: navy;
+    font-family: akua;
+    font-size: 40px;
+    background-color: burlywood;
+    width: 200px;
+    align-items: center;
+    text-align: center;
+}
+#contenido{
+    font-family: mono;
+    font-weight: normal;
+    text-align: justify;
+  
+}
+
+.hijos{
+    width: 100px;
+    height: 50px;
+    padding: 0px;
+    text-align: center;
+    font-size: 15px;
+    background-color: #FFFF99;
+    margin: 0px;
+    line-height: 50px;
+ 
+}
+
+#padre{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    
+}
+.hijos:hover{
+background-color: palevioletred;
+text-decoration: none;
+}
+.hijos2:hover{
+    background-color: yellow;
+text-decoration: none;
+}
+#tecnologia{
+    color: #FFFF99;
+}
+#streaming{
+    color: navy;
+}
+a{
+    text-decoration: none;
+    color: navy;
+
+}
+.imagen1 {
+    float: left;
+    height: 145px;
+    width: 200px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;  
+}
+.imagen2 {
+    float: right;
+    height: 145px;
+    width: 200px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.hijos2{
+    width: 120px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    background-color: burlywood;
+    margin: 15px;
+    line-height: 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+ 
+}
+
+#padre2{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+#contenido2{
+    font-weight: normal;
+    text-align: center;
+    width: 50%; 
+    display: block;
+    margin: 0 auto;
+
+}
+#imagen11 {
+    float: center;
+    height: 145px;
+    width: 200px;
+    line-height: 0px;
+   
+}
+#imagen22 {
+    float: center;
+    height: 145px;
+    width: 200px;
+}
+#imagen33 {
+    float: center;
+    height:145px;
+    width: 200px;
+}
+
+body{
+    border-style: outset;
+    border-color: black;
+
+}
+.contenedor-con-borde{
+    background-color: #FFFF99;
+    border: 10px solid #000; 
+    padding: 0px; 
+    text-align: center;
+    flex-basis: content;
+}
+h1{
+    margin: 0;
+}
+img {
+    max-width: 20%; 
+    height: auto; 
+    margin: 0px;
+    padding: 0px;
+}
